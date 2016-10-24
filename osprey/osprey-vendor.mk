@@ -13,5 +13,7 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
+PRODUCT_PACKAGES += \
+    ims
 
 $(call inherit-product, vendor/motorola/osprey/osprey-vendor-blobs.mk)
